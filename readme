@@ -1,0 +1,17 @@
+自定义Ubuntu配置
+
+grub_themes：引导界面配置 
+
+plymouth_themes：开机动画
+
+login_bg：登录界面背景
+
+gnome_shell：安装gnome插件
+
+themes ： 主题
+
+icons：图标
+
+fronts：字体
+
+cursor：鼠标
