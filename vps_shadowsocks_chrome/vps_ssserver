@@ -1,0 +1,28 @@
+ssh-keygen -f "/home/xmy/.ssh/known_hosts" -R 45.76.165.246
+
+[Server]
+
+vi /etc/shadowsocks/shadowsocks.json
+
+{
+    "server":"45.76.165.246",
+    "server_port":9527,
+    "local_port":1080,
+    "password":"123456",
+    "timeout":300,
+    "method":"aes-256-cfb"
+}
+
+ssserver -c /etc/shadowsocks.json -d start
+
+wget -N --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
+
+
+
+[Local]
+sudo sslocal -c /etc/shadowsocks/shadowsocks.json -d start
+
+google-chrome --proxy-server="socks5://127.0.0.1:1080"
+
+https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+
