@@ -1,19 +1,16 @@
+//1.更改登录界面主题
 
-//1.直接更换的方式，只换背景
+cp  /usr/share/gnome-shell/theme/ubuntu.css  /usr/share/gnome-shell/theme/ubuntu.css.bak
+
+sudo ubuntu.css  /usr/share/gnome-shell/theme/ubuntu.css
+
+
+
+//2.直接更换的方式，只换背景
 
 sudo cp ${picture-path} /usr/share/backgrounds/
 
 sudo gedit /usr/share/gnome-shell/theme/ubuntu.css 
-
-[change the following segment] 
-
-#lockDialogGroup {
-
-    background: #2c001e url(resource:///org/gnome/shell/theme/noise-texture.png);
-
-    background-repeat: repeat; }
-
-==>
 
 #lockDialogGroup {
 
@@ -26,8 +23,3 @@ sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
     background-position: center; }
 
 
-
-
-//2.更换图片和主题，安装
-解压Ubunterra.tar.xz 直接./install.sh
-原来配置的 /usr/share/gnome-shell/theme/ubuntu.css 会备份到 ./Ubunterra/bin下

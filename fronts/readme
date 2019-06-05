@@ -1,6 +1,11 @@
-
-sudo chmod 755/usr/share/fonts/STZHONGS.TTF
+/usr/share/fonts/STZHONGS.TTF
 
 
 终端字体：Tlwg Mono Bold
 
+
+
+修改主题顶栏字体
+
+/usr/share/themes/${theme-directory-name}/gnome-shell/gnome-shell.css
+搜索 "Top Bar" 字段
