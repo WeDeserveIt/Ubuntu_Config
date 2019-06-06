@@ -2584,7 +2584,7 @@ StScrollBar StButton#hhandle:active {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); }
 
 #lockDialogGroup {
-    background: #2c001e url(file:///usr/share/backgrounds/Earth.png);
+    background: #2c001e url(file:///usr/share/backgrounds/Login_Background.png);
     /*lockscreen wallpaper*/
     background-repeat: no-repeat;
     background-size: cover;
