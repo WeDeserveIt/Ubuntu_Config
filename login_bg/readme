@@ -2,7 +2,7 @@
 
 cp  /usr/share/gnome-shell/theme/ubuntu.css  /usr/share/gnome-shell/theme/ubuntu.css.bak
 
-sudo ubuntu.css  /usr/share/gnome-shell/theme/ubuntu.css
+sudo cp ubuntu.css  /usr/share/gnome-shell/theme/ubuntu.css
 
 
 

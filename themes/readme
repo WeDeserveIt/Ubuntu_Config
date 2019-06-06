@@ -1,0 +1,5 @@
+
+修改主题顶栏字体和样式
+
+/usr/share/themes/${theme-directory-name}/gnome-shell/gnome-shell.css
+搜索 "Top Bar" 字段
